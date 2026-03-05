@@ -1,0 +1,16 @@
+---
+id: 0
+name: StacksPayProof Mainnet Deployment
+network: mainnet
+stacks-node: "https://api.hiro.so"
+bitcoin-node: "http://blockstack:blockstacksystem@bitcoind.stacks.co:8332"
+plan:
+  batches:
+    - id: 0
+      transactions:
+        - contract-publish:
+            contract-name: stacks-pay-proof
+            expected-sender: SP000000000000000000002Q6VF78
+            cost: 50000
+            path: contracts/stacks-pay-proof.clar
+            anchor-block-only: true

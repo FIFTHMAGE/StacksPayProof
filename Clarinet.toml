@@ -1,0 +1,12 @@
+[project]
+name = "stacks-pay-proof"
+description = "Onchain payment receipt protocol"
+authors = []
+telemetry = false
+cache_dir = "./.cache"
+requirements = []
+
+[contracts.stacks-pay-proof]
+path = "contracts/stacks-pay-proof.clar"
+clarity_version = 2
+epoch = 2.4

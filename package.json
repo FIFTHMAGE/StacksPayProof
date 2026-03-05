@@ -1,0 +1,15 @@
+{
+  "name": "stacks-pay-proof",
+  "version": "0.1.0",
+  "description": "Onchain payment receipt protocol on Stacks",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "check": "clarinet check"
+  },
+  "devDependencies": {
+    "@hirosystems/clarinet-sdk": "^2.8.0",
+    "@stacks/transactions": "^6.13.0",
+    "vitest": "^1.0.0"
+  }
+}

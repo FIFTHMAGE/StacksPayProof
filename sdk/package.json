@@ -1,0 +1,23 @@
+{
+  "name": "@stackspayproof/sdk",
+  "version": "0.1.0",
+  "description": "JavaScript SDK for StacksPayProof protocol",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": ["stacks", "blockchain", "payment", "receipt"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@stacks/transactions": "^6.13.0",
+    "@stacks/network": "^6.13.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
