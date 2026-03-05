@@ -1,8 +1,8 @@
 ---
 id: 0
-name: StacksPayProof Testnet Deployment
+name: Testnet deployment
 network: testnet
-stacks-node: "https://api.testnet.hiro.so"
+stacks-node: "https://stacks-node-api.testnet.stacks.co"
 bitcoin-node: "http://blockstack:blockstacksystem@bitcoind.testnet.stacks.co:18332"
 plan:
   batches:
@@ -10,8 +10,8 @@ plan:
       transactions:
         - contract-publish:
             contract-name: stacks-pay-proof
-            expected-sender: ST4G1DPZAG6Y6EDPT3ZR8ZDQAFDX2K590VQFG6T6
-            cost: 50000
+            expected-sender: ST1DNS5C48M7GYGVWSZ8NXQ4R7VJ22PY5DND0FXZX
+            cost: 32180
             path: contracts/stacks-pay-proof.clar
             anchor-block-only: true
             clarity-version: 2
