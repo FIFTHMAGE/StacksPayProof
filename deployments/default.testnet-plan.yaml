@@ -10,7 +10,7 @@ plan:
       transactions:
         - contract-publish:
             contract-name: stacks-pay-proof
-            expected-sender: ST1T063JQTG2RQWPR93VHXMBDXG6EMVHT983H46WR
+            expected-sender: ST17H08DP7XP7G5SR8J6G2EBTBNDT5Q9S7S1P8A99
             cost: 32180
             path: contracts/stacks-pay-proof.clar
             anchor-block-only: true
