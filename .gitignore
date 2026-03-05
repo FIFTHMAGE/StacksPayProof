@@ -8,3 +8,5 @@ build/
 coverage/
 .clarinet/
 settings/
+settings/Mainnet.toml
+settings/Testnet.toml
